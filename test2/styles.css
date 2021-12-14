@@ -1,0 +1,184 @@
+/* CSS STYLES FOR INDEX FILE  */
+/* CSS STYLES FOR INDEX FILE  */
+/* CSS STYLES FOR INDEX FILE  */
+ /* custom scrollbar */
+ /* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+/* space beteen buttons on BS project cards */
+/* .btn-space{
+  margin-left: 80px !important;
+} */
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(105, 105, 105); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 102, 255); 
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000cb3; 
+}
+/* Global styles */
+body {
+  background-color: #acacac !important;}
+
+#album-bg{
+  background-color: #acacac !important;}
+
+.jumbotron{
+  background-color: #acacac !important;
+  border-radius: 0px !important;
+  color: white;
+  
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+#title-1{
+   font-size: 15px;
+ }
+#title{
+   font-size: 40px;
+ }
+#CTA{
+  font-size: 26px;
+}
+
+.jumbotron .container {
+  max-width: 100rem;
+  
+}
+
+#home-btn:hover{
+    color:white;
+ }
+
+#my-face{
+  cursor: default;
+  font-weight: none;
+  float: left;
+  border-radius: 60%;
+  /* This will put some space between my picture and bio text */
+  margin: 0px 10px 0px 0px;
+ }
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #acacac !important;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  text-align: center !important;
+  color: #000;
+}
+
+/*fa fa icons*/
+
+/* #big-icon{
+  font-size: 30px;
+} */
+
+.icons-social i{
+  padding: 8px;
+  /* font-size: 20px; */
+}
+
+.icons-social a{
+  margin: 9px;
+  color: #000;
+}
+
+.icons-social a:hover{
+  color: rgb(0, 102, 255);
+  text-decoration: none;
+}
+
+#about{
+   font-size: 17px;
+ }
+ /* adds some padding on left before :: Chase Singhofen | I.T. & Web Development */
+.name-title{
+padding-left: 100px;
+}
+#need-a-website{
+  text-decoration: none !important;
+}
+#p-text{
+  text-align: center;
+  font-size: 30px;
+  color: black !important;
+}
+.list-unstyled li a{
+  color: #fff;
+  font-weight: 400;
+}
+.list-unstyled li a:hover{
+   color: #000 !important;
+   text-decoration: none;
+ }
+/* 
+img{
+  margin-right: 10px;
+} */
+/* toggle bg color */
+.bg{
+  background-color: #acacac !important;
+}
+/* navigation bar */
+.navbar{
+  background-color: #acacac !important;
+}
+/* the actual card and bg itself */
+.card{
+-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.986);
+  background-color: #f4f4f4c5 !important;
+
+  
+}
+/* .card-img-top:hover {
+  opacity: 0.6;
+} */
+/* the actual card bg color with text */
+.card-body{
+  background-color: #f4f4f452 !important;
+  z-index: 1;
+  margin-top: 10px;
+}
+/* .card1 {
+width: 200px;  
+}  */
+	
+.img1 {
+	
+/* position: relative; */
+margin-left: 20px;
+/* margin-right: -40px; */
+  margin-top: 10px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+  width: 180px !important;
+  border-radius: 5px;
+  z-index: -999;
+}
+/* mp4-travel video css */
+#mp4-travel{
+ /* position: relative; */
+margin-left: 20px;
+/* margin-right: -40px; */
+  margin-top: 10px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+  width: 185px !important;
+  border-radius: 5px;
+  z-index: -999;
+}
